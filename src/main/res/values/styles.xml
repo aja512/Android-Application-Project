@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="spinnerItemStyle" parent="@style/Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/gradient_spinner</item>
+        <item name="android:textColor">@color/btncolor</item>
+
+        <item name="android:textStyle">bold</item>
+    </style>
+<!--    <style name="spinnerItemStyle" parent="@style/Widget.AppCompat.Spinner">-->
+    <!--        <item name="android:background">@drawable/gradient_spinner</item>-->
+    <!--        <item name="android:textColor">@color/etextcolor</item>-->
+    <!--    </style>-->
+
+    <style name="notitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/bottom_background_latest</item>
+        <item name="colorPrimaryDark">@color/bottom_background_latest</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="AppTheme.PopupOverlay" tools:ignore="ResourceCycle">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+</resources>

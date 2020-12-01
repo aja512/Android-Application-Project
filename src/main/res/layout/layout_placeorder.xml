@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/addAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:background="@color/btncolor"
+        android:text="Add Shipping and Billing Address"
+        android:textColor="@color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shippingAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addAddress"
+        android:layout_marginTop="@dimen/margin_medium" />
+
+    <LinearLayout
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+       android:layout_below="@id/shippingAddress"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/officeorattorney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_medium"
+            android:text="Payment Mode"
+            android:textColor="@color/btncolor"
+            android:textSize="@dimen/text_size_x_large"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium_large"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingLeft="@dimen/padding_medium"
+            android:paddingRight="@dimen/padding_medium"
+            android:weightSum="1">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:buttonTint="@color/btncolor"
+                android:text="COD"
+                android:textColor="@color/btncolor"
+                android:textSize="@dimen/text_size_medium" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:buttonTint="@color/btncolor"
+                android:text="Online"
+                android:textColor="@color/btncolor"
+                android:textSize="@dimen/text_size_large" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.50"
+                android:layout_marginLeft="@dimen/margin_medium"
+                android:buttonTint="@color/btncolor"
+                android:text="Vegito Wallet"
+                android:textColor="@color/btncolor"
+                android:textSize="@dimen/text_size_large" />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f8ffffff"
+        android:orientation="vertical"
+        android:paddingBottom="3dp">
+
+        <Button
+            android:id="@+id/addPlaceOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:background="@color/btncolor"
+            android:text="Place Order"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

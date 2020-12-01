@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="profile_width">75dp</dimen>
+    <dimen name="profile_height">75dp</dimen>
+
+
+    <dimen name="edt_login">20sp</dimen>
+    <dimen name="gridview_vertical_spacing">45dp</dimen>
+    <dimen name="gridview_horizontal_spacing">25dp</dimen>
+    <dimen name="gridview_image_size">80dp</dimen>
+    <dimen name="gridview_text_size">15sp</dimen>
+    <dimen name="fontawesome_size">20sp</dimen>
+    <dimen name="fontawesome_clear_size">22sp</dimen>
+    <dimen name="recycler_padding">3dp</dimen>
+    <dimen name="survey_title">20sp</dimen>
+    <dimen name="survey_conntent">16sp</dimen>
+    <dimen name="indicator_size">20sp</dimen>
+    <dimen name="recent_activity">18sp</dimen>
+    <dimen name="profile_buttons">18sp</dimen>
+    <dimen name="profile_icons">22sp</dimen>
+    <dimen name="item_offset">4dp</dimen>
+    <dimen name="corner_radius">24dp</dimen>
+
+
+    <!-- Text -->
+    <dimen name="text_size_xx_small">12dp</dimen>
+    <dimen name="text_size_x_small">13dp</dimen>
+    <dimen name="text_size_small">14dp</dimen>
+    <dimen name="text_size_medium">16dp</dimen>
+    <dimen name="text_size_medium_large">18dp</dimen>
+    <dimen name="text_size_large">20dp</dimen>
+    <dimen name="text_size_larger">22dp</dimen>
+    <dimen name="text_size_x_large">24dp</dimen>
+    <dimen name="text_size_xx_large">30dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_x_small">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_medium_small">10dp</dimen>
+    <dimen name="padding_medium_large">12dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_x_large">20dp</dimen>
+    <dimen name="padding_xx_large">24dp</dimen>
+    <dimen name="padding_xxx_large">32dp</dimen>
+    <dimen name="padding_xxxl_large">30dp</dimen>
+    <dimen name="padding_xxxx_large">40dp</dimen>
+    <dimen name="padding_xxxxx_large">50dp</dimen>
+
+    <!-- Margin -->
+    <dimen name="margin_x_small">@dimen/padding_x_small</dimen>
+    <dimen name="margin_small">@dimen/padding_small</dimen>
+    <dimen name="margin_medium">@dimen/padding_medium</dimen>
+    <dimen name="margin_medium_small">@dimen/padding_medium_small</dimen>
+    <dimen name="margin_medium_large">@dimen/padding_medium_large</dimen>
+    <dimen name="margin_large">@dimen/padding_large</dimen>
+    <dimen name="margin_x_large">@dimen/padding_x_large</dimen>
+    <dimen name="margin_xx_large">@dimen/padding_xx_large</dimen>
+    <dimen name="margin_xxx_large">@dimen/padding_xxx_large</dimen>
+    <dimen name="margin_xxxx_large">@dimen/padding_xxxx_large</dimen>
+    <dimen name="design_navigation_icon_size_c" tools:override="true">30dp</dimen>
+    <dimen name="design_bottom_navigation_heights" tools:override="true">70dp</dimen>
+
+
+</resources>

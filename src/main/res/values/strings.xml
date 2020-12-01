@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Vegito</string>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Profile</string>
+    <string name="nav_photos">Message</string>
+    <string name="nav_movies">Promotions</string>
+    <string name="nav_notifications">Favorites</string>
+    <string name="nav_settings">Categories</string>
+
+    <string name="createAccount"><u>Create an Account</u>.</string>
+    <string name="rs">\u20B9</string>
+    <string name="loginData">loginData</string>
+    <string name="productDetails">productDetails</string>
+    <string name="cartID">cartID</string>
+    <string name="userId">userId</string>
+    <string name="totalValue">TotalValue</string>
+    <string name="userSubscribed">userSubscribed</string>
+
+</resources>

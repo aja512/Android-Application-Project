@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="196dp"
+        android:layout_height="196dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_xxx_large"
+        app:civ_border_color="@color/btncolor"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/tv_veggiename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_xxxx_large"
+        android:text="Vegetablename"
+        android:layout_marginRight="120dp"
+        android:textColor="@color/btncolor"
+        android:textSize="@dimen/text_size_x_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_rupees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_toRightOf="@+id/tv_veggiename"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="@dimen/margin_xxx_large"
+        android:textColor="@color/btncolor"
+        android:textSize="@dimen/text_size_medium" />
+
+
+    <TextView
+        android:id="@+id/qnty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_veggiename"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginRight="120dp"
+        android:text="Quantity"
+        android:textColor="@color/btncolor"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/decrease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_rupees"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/qnty"
+        android:background="@drawable/rounded_white_border"
+        android:text="-"
+        android:textColor="@color/btncolor"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/integer_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_rupees"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_toRightOf="@+id/decrease"
+        android:text="0"
+        android:paddingLeft="@dimen/padding_medium"
+        android:paddingRight="@dimen/padding_medium"
+        android:textColor="@color/btncolor"
+        android:textSize="@dimen/text_size_x_large"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/increase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_rupees"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/integer_number"
+        android:background="@drawable/rounded_white_border"
+        android:text="+"
+        android:textColor="@color/btncolor"
+        android:textSize="@dimen/text_size_large"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnAddToCart"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/decrease"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/margin_xxx_large"
+        android:layout_marginTop="@dimen/margin_xx_large"
+        android:layout_marginRight="@dimen/margin_medium_large"
+        android:background="@color/btncolor"
+
+        android:gravity="center"
+        android:padding="@dimen/padding_large"
+        android:text="Add to cart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+[
+  {
+    "categoryid": 1,
+    "categoryName": "Leafy Vegetables",
+    "image": "leafyveges"
+  },
+  {
+    "categoryid": 3,
+    "categoryName": "Seasonal Fruits",
+    "image": "seasonalfruit"
+  },
+  {
+    "categoryid": 2,
+    "categoryName": "Fresh Vegetables",
+    "image": "freshvegess"
+  }
+]
