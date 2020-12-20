@@ -1,4 +1,4 @@
-# Vegito-master
+# Vegito
 Vegetable buying app
 *Vegito*
 An application that is a boon for the local vendor's and consumers who wish to purchase their daily groceries( fruits and vegetables) at local market prices without the additional delivery and miscellaneous tariffs.
