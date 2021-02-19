@@ -4,4 +4,4 @@ An application that is a boon for the local vendor's and consumers who wish to p
 ## Demo Link:
 [Vegito: Local Produce E-Commerce Application Part 1](https://youtu.be/A9-1Mq6-mXg)
 
-[Vegito Part 2](https://youtu.be/2xLqhVdEAKE)
+[Vegito: Local Produce E-Commerce Application Part 2](https://youtu.be/2xLqhVdEAKE)
